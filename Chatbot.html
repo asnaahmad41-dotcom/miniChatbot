@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="chatbot.css">
+  <!--menggabungkan untuk tombol arrow down-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=keyboard_arrow_down" />
+  <!--menggabungkan Google fonts untuk emoji-->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet">
+<!--menggabungkan file-->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+  <title>Chatbot | Demo</title>
+</head>
+<body>
+  <div class="chatbot-popup">
+    <!--Chatbot-header-->
+    <div class="chat-header">
+     <div class="header-info">
+       <img src="my bini.jpg" class="pfl-bot"/>
+       <h2 class="logo-text">Min-ji (민지)</h2>
+     </div>
+     <button id="close-chatbot" class="material-symbols-rounded">
+keyboard_arrow_down
+</button>
+    </div>
+<!--Chatbot-body-->
+<!-- BOT MESSAGE -->
+<div class="chat-body">
+<div class="message bot-message">
+    <img src="Min-ji.jpg" class="bot-avatar"> 
+<div class="message-text">
+          halo saya min-ji!
+    </div>      
+    </div>
+    </div>
+    
+    
+      
+    <!--Chatbot-Footer-->
+<div class="chat-footer">
+<form action="#" class="chat-form">
+  <textarea placeholder="message..." class="message-input" required enterkeyhint="send"></textarea>
+<div class="chat-controls">
+  <button type="button" class="material-symbols-outlined">
+    sentiment_satisfied
+            </button>
+<button id="micBtn" class="material-symbols-outlined">
+graphic_eq
+</button>
+  <button type="submit" id="send-message" class="material-symbols-outlined">
+arrow_upward
+</button>
+</div>
+  </form>
+  </div>
+  </div>
+  <!--JavaScript Start-->
+  
+  <script src="script.js"></script>
+  
+</body>
+</html>
